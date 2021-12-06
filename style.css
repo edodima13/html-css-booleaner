@@ -63,7 +63,7 @@ th{
     color: white;
 }
 .prima, .seconda{
-     width: 25%;
+    width: 25%;
 }
 .riga1-3{
     line-height: 13px;
@@ -78,6 +78,7 @@ th{
     color: gray;
     margin-bottom: 10px;
     font-size: 15px;
+
 }
 
 .footer2{
