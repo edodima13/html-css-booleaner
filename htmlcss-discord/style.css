@@ -1,0 +1,72 @@
+body{
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header{
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 45vh;
+}
+
+nav{
+    position: relative;
+    left: 16vw;
+    width: 66vw;
+    border: 1px dashed red;
+}
+
+.logo{
+    width: 80px;
+}
+ol::after{
+    content: "";
+    display: block;
+    float: both;
+}
+
+li{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    border: 1px dashed green;
+}
+
+button{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.titolone{
+    text-align: center;
+    color: white;
+    max-width: 33vw;
+    position: relative;
+    left: 33%;
+    margin-bottom: 50px;
+}
+
+.ptit{
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+.btn{
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    margin-bottom: 100px;
+    border-radius: 25px;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.btn-color{
+    background-color: black;
+    color: white;
+}
