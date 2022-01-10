@@ -1,0 +1,60 @@
+.well .ex-1-square:hover{
+    transition: 3s;
+    background-color: red;
+}
+
+.well .ex-2-square:active{
+    transition: width 3s;
+    width: 100%;
+}
+
+.well .ex-3-square:hover{
+    transition: border-radius 2s;
+    border-radius: 100%;
+}
+
+.well .ex-4-square:hover{
+    transition: opacity 1s;
+    opacity: 0;
+}
+
+.well .ex-5-square:hover{
+    transition: 3s;
+    transform: scale(2);
+}
+
+.well .ex-5-square:active{
+    transform: scale(.5);
+}
+
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+
+.ex-7-img:hover{
+    transition: 2s;
+    filter: grayscale(1) saturate(1);
+}
+
+.ex-8-img:hover{
+    transition: 1s;
+    filter: grayscale(.5) sepia(.5);
+    border-radius: 25px;
+}
+
+.ex-9-img:hover{
+    transition: 2s;
+    filter: grayscale(.5) sepia(.5);
+    border-radius: 25px;
+    transform: scale(1.5);
+}
+
+.ex-10-icon{
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate (1turn);
+    }   
+}

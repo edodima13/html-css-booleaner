@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.noborder{
+    border: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: currentColor;
+}
+
+[class^="container"]{
+    margin: 0 auto;
+}
+
+.container-fluid{
+    max-width: 100%;
+}
+
+.container-lg{
+    max-width: 1160px;   
+}
+
+.container{
+    width: 970px;
+}
+
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.row [class^="col"]{
+    float: left;
+}
+
+.col-4{
+    width: 33.33%;
+    
+}
+
+.col-2{
+    width: 20%;
+}
+
+.col-lr{
+    width: 24%;
+}
+
+.col-middle{
+    width: 52%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-8{
+    width: 66.66%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+/*header*/
+.logo{
+    width: 100px;
+    padding-top: 5px;
+}
+
+header .container-fluid ul{
+    padding: 10px;
+    font-size: 12px;
+}
+
+header .container-fluid ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.row .fr{
+    float: right;
+}
+
+.button{
+    background-color: #0061FF;
+    text-align: center;
+    color: white;
+    padding: 0px 10px;
+    font-size: 12px;
+}
+
+li .inizia{
+    margin-right: 10px;
+}
+
+.row .col li{
+    vertical-align: middle;
+    padding: 0 10px;
+    line-height: 25px;
+}
+
+/*section jumbo*/
+#jumbo{
+    background-color: #B4D0EF;
+    margin-bottom: 100px;
+}
+
+.main-title{
+    font-size: 75px;
+    padding-top: 50px;
+}
+
+#jumbo .col-4{
+    padding-top: 42px;
+}
+
+#jumbo .col-4 p:last-child{
+    font-size: 12px;
+}
+
+#jumbo .col-4 .description{
+    padding-bottom: 15px;
+    font-size: 13px;
+}
+
+#jumbo .col-8 img{
+    width: 600px;
+    padding-left: 50px;
+    transform: translateY(42px);
+}
+
+ .col-4 .annulla{
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+/*section subscriptions*/
+
+#subscriptions .plans-title{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+#subscriptions span{
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 4px;
+}
+
+#subscriptions .row .col-4-2{
+    border: 1px solid lightgray;
+    width: 29%;
+    margin-right: 42px;
+    height: 700px;
+    margin-bottom: 50px;
+}
+
+.plan-type,.plan-points{
+    padding: 0 20px;
+}
+
+.mxw{
+    width: 100%;
+    padding: 5px 25px;
+}
+
+.plan-title2{
+    padding-bottom: 10px;
+}
+
+.plan-title h5{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.border-plan{
+    border: 1px solid lightgray;
+}
+
+.price{
+    font-weight: bold;
+}
+
+#subscriptions .plan-time{
+    color: grey;
+    padding-bottom: 30px;
+}
+
+#subscriptions p{
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+#subscriptions .pb-2{
+    padding-bottom:30px;
+}
+
+.plan-points h5{
+    padding:  10px 0;
+}
+
+.little-border::after{
+    display: block;
+    content: "";
+    height: 1px;
+    width: 30px;
+    background-color: lightgray;
+    margin-top: 20px;
+}
+
+p a{
+    color: rgb(0, 102, 255);
+    text-decoration: underline;
+    font-size: 12px;
+    padding-top: 5px;
+} 
+
+.row .container h5:first-child{
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+.border-plan .col-8{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.border-plan .col-4{
+    padding: 20px 10px;
+}
+
+.border-plan h4{
+    padding-bottom: 10px;
+}
+
+.border-plan h6,p{
+    padding-bottom: 20px;
+}
+
+.sect-2 .padding-middle {
+    padding-left: 35px;
+    padding-top: 70px;
+}
+
+.sect-2 .padding-middle h3,p{
+    padding-bottom: 20px;
+}
+
+.title-xl{
+    font-size: 21px;
+}
+
+.plan-subtitle{
+    padding-bottom: 11px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.partner-img{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    line-height: 0;
+    padding-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.wbutton{
+    border: none;
+    padding: 4px 20px;
+    font-size: 11px;
+    background-color: white;
+    color: black
+}
+
+.wbutton-border{
+    border: 1px solid black;
+    padding: 4px 6px;
+}
+
+.sect-4 .text-lg{
+    padding-bottom: 40px;
+    font-size:35px;
+}
+
+.sect-4 p{
+    padding-bottom: 40px;
+}
+
+ .marginl p{
+    padding-bottom: 100px;
+}
+
+.sect-5 .col-6 h2{
+    padding-bottom: 15px;
+}
+
+.sect-5 .col-6 p{
+    padding-bottom: 30px;
+}
+
+.sect-5 img{
+    width: 50px;
+    position: absolute;
+    text-align: center;
+}
+
+.sect-5 .col-middle p{
+    font-size: 11px;
+}
+
+.sect-5 .col-middle p:nth-child(2){
+    padding-bottom: 20px;
+}
+
+.sect-5 .middle-padding{
+    padding: 30px 50px;
+    margin: 0 50px;
+}
+
+.sect-5 .col-lr img{
+    filter: invert(100%);
+    position: absolute;
+    top: 40%;
+    right: 35%;
+    transform: translate(-%, -%);
+}
+
+.div-uni{
+    height: 140px;
+    position: relative;
+}
+
+.div-uni-green{
+    background-color: green;
+    border: 5px solid grey;
+}
+
+.div-uni-red1{
+    background-color: red;
+}
+
+.div-uni-blue{
+    background-color: rgb(104, 104, 250)
+}
+
+.div-uni-red2{
+    background-color: red
+}
+
+.div-uni-red3{
+    background-color: red
+}
+
+.div-uni-blue2{
+    background-color: blue;
+}
+
+.div-uni-blue3{
+    background-color: blue;
+}
+
+.div-uni-yellow{
+    background-color: yellow;
+}
+
+.sect-5 .logo-2{
+    width: 80px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.sect-6 .col-6 h2{
+    padding: 60px 0;
+    color: rgb(121, 47, 47);
+}
+
+.sect-6 .col-6 a{
+    margin-top: 70px;
+    margin-left: 250px;
+}
+
+.sect-6{
+    background-color: rgb(68, 107, 236);
+    margin-bottom: 20px;
+}
+
+.sect-7 *{
+    padding: 25px 0;
+}
+
+.sect-7 h3{
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+.sect-7 p:nth-child(3){
+    border-bottom: 1px solid lightgray;
+}
+
+.sect-7 p{
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+footer{
+    background-color: black;
+}
+
+footer *{
+    color: white;
+    list-style-type: none;
+}
+
+footer h4{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+footer li{
+    padding-bottom: 5px;
+    font-size: 10px;
+}
+
+footer ul li:last-child{
+    padding-bottom: 50px;
+}
+
+footer h6{
+    padding: 20px 0;
+}

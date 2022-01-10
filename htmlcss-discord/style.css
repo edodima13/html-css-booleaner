@@ -2,37 +2,50 @@ body{
     margin: 0 auto;
     box-sizing: border-box;
     padding: 0;
+    width: 1084px;
 }
+
 
 header{
     background-image: url(img/jumbo.png);
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 45vh;
+    height: 50vh;
 }
 
 nav{
     position: relative;
+    top: 15px;
     left: 16vw;
-    width: 66vw;
-    border: 1px dashed red;
+    bottom: 90%;
+    width: 66%;
 }
 
 .logo{
     width: 80px;
 }
-ol::after{
+
+ul::after{
     content: "";
     display: block;
     float: both;
+    
 }
 
 li{
+    transform: translateY(-42px) translateX(150px);
+    float: left;
     display: inline-block;
-    position: absolute;
-    top: 0;
-    border: 1px dashed green;
+    color: white;
+    padding-right: 10px;
+}
+
+.accedi{
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 10px;
 }
 
 button{
@@ -50,6 +63,10 @@ button{
     margin-bottom: 50px;
 }
 
+h1{
+    display: inline-block;
+}
+
 .ptit{
     font-size: 12px;
     padding-bottom: 15px;
@@ -59,7 +76,6 @@ button{
     background-color: white;
     color: black;
     padding: 10px 15px;
-    margin-bottom: 100px;
     border-radius: 25px;
     font-size: 12px;
     text-decoration: none;
@@ -69,4 +85,101 @@ button{
 .btn-color{
     background-color: black;
     color: white;
+}
+
+section{
+    width: 66%;
+    height: 50vh;
+    position: relative;
+    top: 25px;
+    left: 16vw;
+    border: 1px dashed orange;
+    padding-bottom: 50px;
+
+}
+
+.sect-img{
+    width:  400px;
+}
+
+.position-img{
+    position: absolute;
+    right: 50px;
+    width: 300px;
+}
+
+.container-sect {
+    max-width: 200px;
+    position: absolute;
+    right: 50px;
+    top: 0;
+}
+
+.container-sect2{
+    max-width: 200px;
+    position: absolute;
+    left: 50px;
+    top: 0;
+}
+
+.container-sect p{
+    font-size: 13px;
+}
+
+.sect4{
+    text-align: center;
+    height: 80vh;
+    background-color: rgb(235, 231, 231);
+}
+
+.bck-sect4{
+    background-image: url(img/wave.svg);
+    height: 60px;
+    background-size: 720px;
+    background-repeat: no-repeat;
+    opacity: 0.1;
+    position: relative;
+    bottom: 560px;
+}
+
+.img4{
+    width: 500px;
+}
+
+.end-section{
+    background-image: url(img/stars.svg);
+    background-size: cover;
+    width: 28vw;
+    height: 15px;
+    margin-left: 13vw;
+    margin-bottom: 20px;
+}
+
+.end-btn{
+    background-color: rgb(81, 131, 146);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: rgb(12, 6, 12);
+    border: 1px dashed green;
+    margin-top: 25px;
+}
+
+.container-footer{
+    width: 33%;
+    padding-left: 19%;
+}
+
+.mod1{
+    width: 100px;
+}
+
+h5{
+    color: rgb(113, 61, 196);
 }
